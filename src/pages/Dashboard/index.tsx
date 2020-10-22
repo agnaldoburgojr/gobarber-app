@@ -51,6 +51,7 @@ const Dashboard: React.FC = () => {
       setProviders(response.data);
     });
   }, []);
+
   return (
     <Container>
       <Header>

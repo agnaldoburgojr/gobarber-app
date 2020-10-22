@@ -15,12 +15,14 @@ export const Header = styled.View`
   justify-content: space-between;
   align-items: center;
 `;
+
 export const HeaderTitle = styled.Text`
   color: #f4edf8;
   font-size: 20px;
   font-family: 'RobotoSlab-Regular';
   line-height: 28px;
 `;
+
 export const UserName = styled.Text`
   color: #ff9000;
   font-family: 'RobotoSlab-Medium';
@@ -59,21 +61,25 @@ export const ProviderAvatar = styled.Image`
   height: 72px;
   border-radius: 36px;
 `;
+
 export const ProviderInfo = styled.View`
   flex: 1;
   margin-left: 20px;
 `;
+
 export const ProviderName = styled.Text`
   font-size: 18px;
   font-family: 'RobotoSlab-Regular';
   color: #f4edf8;
 `;
+
 export const ProviderMeta = styled.View`
   flex-direction: row;
   align-items: center;
 
   margin-top: 8px;
 `;
+
 export const ProviderMetaText = styled.Text`
   margin-left: 8px;
   font-family: 'RobotoSlab-Regular';
